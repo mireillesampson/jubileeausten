@@ -24,6 +24,9 @@ body {
     float: left;
 }
 
+
+
+
 /*******HEADER********/
 header {
     height: 800px;
@@ -116,6 +119,7 @@ header h2 span {
 /********CONTACT sECTION*******/
 #contact {
     background: #EBEBEB;
+    clear: both;
 }
 
 #contact .full-width {
@@ -167,4 +171,74 @@ header h2 span {
 #contact ul img {
     font-size: 32px;
     padding-right: 48px;
+}
+
+
+/*****THIS IS THE UX PAGE******/
+
+#top {
+  background: #ffffff
+}
+
+#top h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #BBC085;
+    padding: 65px 0 65px 25px;
+}
+
+
+/******THIS IS THE VIDEO SECTION******/
+
+#video {
+}
+
+
+
+/*******THIS IS THE UX SECTION********/
+
+#ux .full-width {
+    padding-top: 80px;
+}
+
+
+#ux h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#ux p {
+    font-size: 21px;
+    color: #7F7F7F;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 80px;
+}
+
+
+
+/*******THIS IS THE DESIGN SECTION*******/
+
+/****#design {
+    text-align: center;
+    background: #F9CEB7;
+}****/
+
+
+#design p {
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  color: #C49075;
+  padding: 65px 65px 65px 0px;
+}
+
+#design {
+  background: #F9CEB7;
+  clear: both;
+}
+
+#design img {
+  float: right;
 }
