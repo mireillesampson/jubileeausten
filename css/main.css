@@ -34,11 +34,16 @@ header {
     background-size: cover;
 }
 
-header h1 {
+header h1 a {
     font-family: 'Lora', serif;
     font-size: 30px;
     color: #BBC085;
     padding: 65px 0 65px 25px;
+    text-decoration: none;
+}
+
+header h1 {
+  padding: 65px 0 65px 25px;
 }
 
 nav {
@@ -119,15 +124,18 @@ header h2 span {
 /********CONTACT sECTION*******/
 #contact {
     background: #EBEBEB;
-    clear: both;
+
 }
 
 #contact .full-width {
     padding: 110px 0;
 }
 
+
+
 #contact img#contact-img {
-    margin-left: 25px;
+    margin-left:25px;
+    margin-right: 25px;
     border: 12px solid #ffffff;
 }
 
@@ -170,7 +178,7 @@ header h2 span {
 }
 #contact ul img {
     font-size: 32px;
-    padding-right: 48px;
+    padding-right: 50px;
 }
 
 
@@ -180,11 +188,16 @@ header h2 span {
   background: #ffffff
 }
 
-#top h1 {
+#top h1 a {
     font-family: 'Lora', serif;
     font-size: 30px;
     color: #BBC085;
     padding: 65px 0 65px 25px;
+    text-decoration: none;
+}
+
+#top h1 {
+  padding: 65px 0 65px 25px;
 }
 
 
@@ -196,6 +209,7 @@ header h2 span {
 
 
 /*******THIS IS THE UX SECTION********/
+
 
 #ux .full-width {
     padding-top: 80px;
@@ -217,15 +231,24 @@ header h2 span {
     margin-bottom: 80px;
 }
 
+#ux h5 {
+  color: #7F7F7F;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 50px 50px 50px 50px;
+}
+
+#ux h5 a {
+  text-decoration: none;
+  color: #7F7F7F;
+}
+
 
 
 /*******THIS IS THE DESIGN SECTION*******/
-
-/****#design {
-    text-align: center;
-    background: #F9CEB7;
-}****/
-
+#design {
+  background: #F9CEB7;
+  margin-bottom: 0;
+}
 
 #design p {
   font-family: 'Lora', serif;
@@ -234,11 +257,7 @@ header h2 span {
   padding: 65px 65px 65px 0px;
 }
 
-#design {
-  background: #F9CEB7;
-  clear: both;
-}
 
-#design img {
-  float: right;
+#design {
+  clear: both;
 }
